@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "name": "T'Compro",
+    "short_name": "T'Compro",
+    "description": "Your trusted neighborhood shop — buy essentials from local stores.",
+    "start_url": "/en",
+    "lang": "en"
+  },
+  "metadata": {
+    "customers": {
+      "title": "T'Compro: Your Shop of Always, One Click Away in Peru",
+      "description": "Buy groceries, food, and essentials from your trusted local shop. Fast delivery or in-store pick-up. Access On Credit / Fiado for Trusted Customers.",
+      "keywords": "local shop, bodega delivery, grocery app, Peru, fiado, in-store pick-up, trusted customers, orders, shopping",
+      "author": "Soulware"
+    },
+    "stores": {
+      "title": "T'Compro Business: Your Business, Your Rules - Custom System for Peruvian Shops",
+      "description": "Digitalize your bodega. Manage Inventory, Staff, Finances, and Orders. Increase sales and control On Credit / Fiado for Trusted Customers.",
+      "keywords": "bodega management, inventory app, staff management, business finances, Peru, fiado control, incoming orders",
+      "author": "Soulware"
+    }
+  },
+  "Test": {
+    "title": "Title in English"
+  },
+  "NotFound": {
+    "title": "Not Found"
+  }
+}

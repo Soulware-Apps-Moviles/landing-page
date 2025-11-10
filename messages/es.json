@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "name": "T'Compro",
+    "short_name": "T'Compro",
+    "description": "Tu bodega de siempre — compra productos esenciales de tu tienda local.",
+    "start_url": "/es",
+    "lang": "es"
+  },
+  "metadata": {
+    "customers": {
+      "title": "T'Compro: Tu Bodega de Siempre, a un Clic de Distancia en Perú",
+      "description": "Compra víveres, abarrotes y esenciales de tu bodega local de confianza. Delivery rápido o recojo en tienda. Accede al Fiado para Clientes Confiables.",
+      "keywords": "bodega local, delivery, app de víveres, Perú, fiado, recojo en tienda, clientes confiables, pedidos, compras",
+      "author": "Soulware"
+    },
+    "stores": {
+      "title": "T'Compro Dueños: Tu Negocio, Tus Reglas - Sistema Personalizado para Bodegas Peruanas",
+      "description": "Digitaliza tu bodega. Gestiona Inventario, Personal, Finanzas y Pedidos. Aumenta ventas y controla el Fiado para Clientes Confiables.",
+      "keywords": "gestión de bodega, app de inventario, gestión de personal, finanzas de negocio, Perú, control de fiado, pedidos entrantes",
+      "author": "Soulware"
+    }
+  },
+  "Test": {
+    "title": "Título en español"
+  },
+  "NotFound": {
+    "title": "No encontrado"
+  }
+}
