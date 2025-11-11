@@ -1,0 +1,25 @@
+.heroSection {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Desktop >=768px -> sin fondo */
+@media (min-width: 768px) {
+    .heroSection.customers,
+    .heroSection.stores {
+        background-image: none;
+    }
+}
+
+/* Mobile <768px -> este div SÍ muestra fondo */
+@media (max-width: 767px) {
+    .heroSection.customers {
+        background-image: url('../../../public/images/customers-bg.webp');
+    }
+
+    .heroSection.stores {
+        background-image: url('../../../public/images/stores-bg.webp');
+    }
+}

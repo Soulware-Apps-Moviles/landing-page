@@ -20,6 +20,34 @@
       "author": "Soulware"
     }
   },
+  "logo": {
+    "app-name": "T'Compro",
+    "customers": "clientes",
+    "stores": "bodegas",
+    "alt": "Logo de T'Compro"
+  },
+  "navbar": {
+    "features": "Características",
+    "reviews": "Reseñas",
+    "pricing": "Precios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "customers": {
+      "title": "Tu bodega de siempre,<br></br>a un click de distancia",
+      "description": "Compra en tu bodega de confianza con los precios<br></br>de siempre desde la comodidad de tu casa con T'Compro App.",
+      "version-swap": "Ir a la versión para bodegas"
+    },
+    "stores": {
+      "title": "Tu negocio, tus reglas:<br></br>un sistema a tu medida",
+      "description": "El potencial de la tecnología trabajando a tu manera",
+      "version-swap": "Ir a la versión para clientes"
+    }
+  },
+  "locale-switcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {Español} en {English} other {Unknown}}"
+  },
   "Test": {
     "title": "Título en español"
   },

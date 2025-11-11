@@ -20,6 +20,34 @@
       "author": "Soulware"
     }
   },
+  "logo": {
+    "app-name": "T'Compro",
+    "customers": "customers",
+    "stores": "stores",
+    "alt": "T'Compro's logo"
+  },
+  "navbar": {
+    "features": "Features",
+    "reviews": "Reviews",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "customers": {
+      "title": "Your everyday store<br></br>one click away",
+      "description": "Buy in the store you love and trust, with the prices<br></br>you know in the comfort of your home with T’Compro App.",
+      "version-swap": "Go to the shops version"
+    },
+    "stores": {
+      "title": "Your business, your rules:<br></br>a system built for you",
+      "description": "The power of technology, working your own way",
+      "version-swap": "Go to the customer version"
+    }
+  },
+  "locale-switcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {Español} en {English} other {Unknown}}"
+  },
   "Test": {
     "title": "Title in English"
   },
