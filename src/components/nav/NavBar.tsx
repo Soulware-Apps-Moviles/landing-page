@@ -26,7 +26,7 @@ export default function NavBar({version}: NavBarProps) {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.innerWidth >= 768) {
+            if (window.innerWidth >= 786) { //equal to "md"
                 setScrolled(window.scrollY > 40);
             } else {
                 setScrolled(false);

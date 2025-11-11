@@ -2,12 +2,10 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
 }
 
-/* Desktop >=768px */
 @media (min-width: 768px) {
-    /* En desktop, este div SÍ muestra fondo */
     .pageLayoutFirstDiv.customers {
         background-image: url('../../../public/images/customers-bg.webp');
     }
@@ -17,10 +15,10 @@
     }
 }
 
-/* Mobile <768px -> ningún fondo */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .pageLayoutFirstDiv.customers,
     .pageLayoutFirstDiv.stores {
         background-image: none;
+        height: auto;
     }
 }

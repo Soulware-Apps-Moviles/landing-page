@@ -1,11 +1,11 @@
 .heroSection {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
 }
 
-/* Desktop >=768px -> sin fondo */
 @media (min-width: 768px) {
     .heroSection.customers,
     .heroSection.stores {
@@ -13,13 +13,22 @@
     }
 }
 
-/* Mobile <768px -> este div SÍ muestra fondo */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .heroSection {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100vw;
+        margin-top: 72px;
+    }
+
     .heroSection.customers {
         background-image: url('../../../public/images/customers-bg.webp');
+        height: calc(100vw * 0.6611);
     }
 
     .heroSection.stores {
         background-image: url('../../../public/images/stores-bg.webp');
+        height: calc(100vw * 0.6396);
     }
 }
