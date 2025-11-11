@@ -45,8 +45,41 @@
     }
   },
   "locale-switcher": {
-    "label": "Change language",
+    "label": "Cambiar idioma",
     "locale": "{locale, select, es {Español} en {English} other {Unknown}}"
+  },
+  "features": {
+    "title": "Funcionalidades",
+    "customers": {
+      "description": "Con T'Compro App puedes redescubrir la experiencia de comprar tus productos favoritos en tu bodega de siempre.",
+      "1": {
+        "header": "Llena tu bolsa de compras",
+        "text": "Escoge los productos de tus marcas preferidas y prepara tu orden. Elige los detalles como el método de pago y si prefieres recojo en tienda o delivery."
+      },
+      "2": {
+        "header": "Descubre negocios locales",
+        "text": "Echa un vistaso a los negocios cerca de ti con los productos que buscas. Compara ofertas y elige la mejor opción para ti."
+      },
+      "3": {
+        "header": "Disfruta tu pedido",
+        "text": "Espera tu delivery llegue o que tu pedido esté listo para recoger en tienda."
+      }
+    },
+    "stores": {
+      "description": "Impulsa tus ventas y gestiona todo desde un solo lugar.",
+      "1": {
+        "header": "Toma el control de tu negocio",
+        "text": "Configura fácilmente la aplicación para funcionar de la forma en que manejas tu negocio: manejo de clientes, inventario de productos, empleados y ofertas especiales."
+      },
+      "2": {
+        "header": "Recibe y atiende pedidos",
+        "text": "Cada pedido tendrá identificado al cliente, la lista de productos solicitados y preferencias como el método de pago y si requieren delivery o recojo en tienda. Evalúa y empieza a despachar con un solo click."
+      },
+      "3": {
+        "header": "Seguimiento financiero",
+        "text": "Realiza un seguimiento de las finanzas de tu negocio con métricas autogeneradas simples y fáciles de utilizar."
+      }
+    }
   },
   "Test": {
     "title": "Título en español"

@@ -9,7 +9,7 @@ interface NavToggleProps {
 export default function NavToggle({ open, onToggle }: NavToggleProps) {
     return (
         <button
-            className="sm:hidden absolute right-6"
+            className="md:hidden absolute right-6"
             onClick={onToggle}
             aria-label="Toggle menu"
         >

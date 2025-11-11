@@ -11,7 +11,7 @@ export default function NavMobileMenu({ open, items, onClose }: NavMobileMenuPro
     if (!open) return null;
 
     return (
-        <div className="sm:hidden flex flex-col items-center gap-6 pb-6 text-[16px] font-medium bg-black">
+        <div className="md:hidden flex flex-col items-center gap-6 pb-6 text-[16px] font-medium bg-black">
             {items.map((item) => (
                 <Link
                     key={item.href}

@@ -48,6 +48,39 @@
     "label": "Change language",
     "locale": "{locale, select, es {Español} en {English} other {Unknown}}"
   },
+  "features": {
+    "title": "Features",
+    "customers": {
+      "description": "With T'Compro App, you can rediscover the experience of buying for your favorite products at your trusted local store.",
+      "1": {
+        "header": "Fill your shopping bag",
+        "text": "Choose products from your favorite brands to get your order ready. Select details such as payment method and whether you prefer in-store pickup or delivery."
+      },
+      "2": {
+        "header": "Discover local businesses",
+        "text": "Browse nearby stores offering the products you’re looking for. Compare deals and choose the best option for you."
+      },
+      "3": {
+        "header": "Enjoy your order",
+        "text": "Sit back and wait for your delivery to arrive, or pick up your order when it’s ready in-store."
+      }
+    },
+    "stores": {
+      "description": "Boost your sales and manage everything from one place.",
+      "1": {
+        "header": "Take control of your business",
+        "text": "Easily set up the app to function the way you manage your business: customers, product inventory, employees, and special offers."
+      },
+      "2": {
+        "header": "Receive and process orders",
+        "text": "Each order includes customer details, requested products, and preferences such as payment method and delivery or pickup. Review and start dispatching with a single click."
+      },
+      "3": {
+        "header": "Financial tracking",
+        "text": "Keep track of your business finances with simple and easy-to-use auto-generated metrics."
+      }
+    }
+  },
   "Test": {
     "title": "Title in English"
   },
