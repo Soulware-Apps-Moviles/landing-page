@@ -32,3 +32,65 @@
         height: calc(100vw * 0.6396);
     }
 }
+
+.heroSection h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.heroSection p {
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@media (min-width: 730px) {
+    .heroSection h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .heroSection p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media (min-width: 768px) {
+    .heroSection h1 {
+        font-size: 48px;
+        line-height: 72px;
+    }
+
+    .heroSection p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media (min-width: 960px) {
+    .heroSection h1 {
+        font-size: 52px;
+        line-height: 78px;
+    }
+
+    .heroSection p {
+        font-size: 26px;
+        line-height: 49px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .heroSection h1 {
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .heroSection p {
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+
+
