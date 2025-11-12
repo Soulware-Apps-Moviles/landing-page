@@ -181,6 +181,31 @@
     },
     "lastUpdated": "Last updated: November 2025"
   },
+  "terms-and-conditions": {
+    "title": "Terms and Conditions of Use",
+    "intro": "Welcome to <strong>T’Compro</strong>. By using our app, you agree to comply with these terms and conditions. The app is in MVP phase and may be subject to changes.",
+    "section1": {
+      "title": "1. Use of the App",
+      "description": "T’Compro is a metamarkets platform that allows users to place orders digitally. You must use the app only for lawful purposes and must not share your credentials with third parties."
+    },
+    "section2": {
+      "title": "2. Registration and Accounts",
+      "description": "By registering, you provide accurate and complete information. You are responsible for the security of your account and any activity that occurs under your session."
+    },
+    "section3": {
+      "title": "3. Ownership and Content",
+      "description": "All content within the app, including text, images, and functionalities, is the property of <strong>T’Compro</strong>. Reproduction without authorization is not allowed. For inquiries, contact <a>support@tcompro.app</a>."
+    },
+    "section4": {
+      "title": "4. Limitation of Liability",
+      "description": "T’Compro is not responsible for errors in the app, service interruptions, or losses resulting from the use of the platform. The app is provided as-is and in MVP phase."
+    },
+    "section5": {
+      "title": "5. Changes to the Terms",
+      "description": "We may update these terms at any time. The date of the last update will be displayed at the end of the document."
+    },
+    "lastUpdated": "Last updated: November 2025"
+  },
   "Test": {
     "title": "Title in English"
   },
