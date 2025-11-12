@@ -20,7 +20,7 @@ export default async function Features({ version }: FeatureProps) {
     console.log(features[1].imageSrc)
 
     return (
-        <section className="w-full px-[120px] py-[80px] space-y-16">
+        <section className="w-full px-[40px] md:px-[80px] lg:px-[120px] py-[80px] space-y-16">
             <h2 className="text-4xl font-bold text-center mb-6">
                 {t("title")}
             </h2>

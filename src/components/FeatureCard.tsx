@@ -35,8 +35,6 @@ export default function FeatureCard({ header, text, imageSrc, orientation }: Fea
                     />
                 </div>
             </div>
-
-            {/* Texto */}
             <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left px-4">
                 <h3 className="text-2xl md:text-3xl font-semibold mb-3">{header}</h3>
                 <p className="text-base md:text-lg text-gray-800">{text}</p>

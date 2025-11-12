@@ -81,6 +81,45 @@
       }
     }
   },
+  "reviews": {
+    "title": "Testimonials",
+    "customers": {
+      "description": "Know what some of our users who have already proved to buy with T’Compro have to say.",
+      "1": {
+        "name": "Camila Flores",
+        "location": "Lima - Lima",
+        "comment": "I find it comfortable to be able to order in advance, especially when I am in a rush. I make my order and it's ready when I'm there."
+      },
+      "2": {
+        "name": "Thiago Quispe",
+        "location": "San Borja - Lima",
+        "comment": "The minimarket where I usually buy has started operating with this app. It’s nice to save shopping lists and order with a few clicks."
+      },
+      "3": {
+        "name": "Andrea García",
+        "location": "San Sebastián - Cusco",
+        "comment": "I love seeing the country modernize little by little. Although I enjoy going out, now I sometimes order for delivery."
+      }
+    },
+    "stores": {
+      "description": "Know what some of our users who have already started promoting their business with T’Compro have to say.",
+      "1": {
+        "name": "Jorge Luis Salas",
+        "location": "Surquillo - Lima",
+        "comment": "Customers just place their orders, and by the time they arrive I already have them ready. It’s simple and very practical."
+      },
+      "2": {
+        "name": "Emmanuel Sánchez",
+        "location": "Huamanga - Ayacucho",
+        "comment": "My niece helps me attend the shop. This program helps us save time, and I can see she’s happier."
+      },
+      "3": {
+        "name": "Elena Ríos",
+        "location": "Magdalena del Mar - Lima",
+        "comment": "I wanted a digital notebook to keep track of my customers payments. This app helps me a lot with that."
+      }
+    }
+  },
   "Test": {
     "title": "Title in English"
   },

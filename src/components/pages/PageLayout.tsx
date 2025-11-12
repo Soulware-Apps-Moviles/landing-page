@@ -2,8 +2,8 @@ import HeroSection from "@/components/sections/HeroSection";
 import NavBar from "@/components/nav/NavBar";
 import {Version} from "@/i18n/routing";
 import './Pages.css';
-import FeatureCard from "@/components/FeatureCard";
 import Features from "@/components/sections/Features";
+import Reviews from "@/components/sections/Reviews";
 
 type PageLayoutProps = {
   version: Version;
@@ -16,6 +16,7 @@ export default function PageLayout({ version }: PageLayoutProps) {
                 <HeroSection version={version}/>
             </div>
             <Features version={version}/>
+            <Reviews version={version}/>
         </>
     );
 }

@@ -81,6 +81,45 @@
       }
     }
   },
+  "reviews": {
+    "title": "Testimonios",
+    "customers": {
+      "description": "Conoce lo que algunos de nuestros usuarios que ya han probado comprar con T’Compro tienen para decir.",
+      "1": {
+        "name": "Camila Flores",
+        "location": "Lima - Lima",
+        "comment": "Me resulta muy cómodo poder hacer pedidos con anticipación, especialmente cuando tengo poco tiempo. Hago mi pedido y cuando llego ya está listo."
+      },
+      "2": {
+        "name": "Thiago Quispe",
+        "location": "San Borja - Lima",
+        "comment": "El minimarket donde suelo comprar empezó a usar esta aplicación. Es genial poder guardar listas de compras y ordenar con unos pocos clics."
+      },
+      "3": {
+        "name": "Andrea García",
+        "location": "San Sebastián - Cusco",
+        "comment": "Me encanta ver cómo el país se moderniza poco a poco. Aunque disfruto salir, ahora a veces pido por delivery."
+      }
+    },
+    "stores": {
+      "description": "Conoce lo que algunos de nuestros usuarios que ya empezaron a promover su negocio con T’Compro tienen para decir.",
+      "1": {
+        "name": "Jorge Luis Salas",
+        "location": "Surquillo - Lima",
+        "comment": "Los clientes solo hacen su pedido y, cuando llegan, ya lo tengo listo. Es simple y muy práctico."
+      },
+      "2": {
+        "name": "Emmanuel Sánchez",
+        "location": "Huamanga - Ayacucho",
+        "comment": "Mi sobrina me ayuda con la atención en la tienda. Este programa nos ayuda a ahorrar tiempo, y la veo más contenta."
+      },
+      "3": {
+        "name": "Elena Ríos",
+        "location": "Magdalena del Mar - Lima",
+        "comment": "Quería una libreta digital para llevar el control de mis clientes frecuentes. Esta app me ayuda muchísimo con eso."
+      }
+    }
+  },
   "Test": {
     "title": "Título en español"
   },
