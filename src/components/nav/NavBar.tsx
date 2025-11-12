@@ -53,7 +53,7 @@ export default function NavBar({version}: NavBarProps) {
                 <NavToggle open={menuOpen} onToggle={() => setMenuOpen(!menuOpen)} />
             </div>
 
-            <NavMobileMenu open={menuOpen} items={items} onClose={() => setMenuOpen(false)} />
+            <NavMobileMenu open={menuOpen} items={items} />
         </nav>
     );
 };

@@ -138,6 +138,49 @@
     },
     "copyNotice": "Soulware © 2025. Todos los derechos reservados."
   },
+  "privacy-policy": {
+    "title": "Política de Privacidad",
+    "intro": "En <strong>T’Compro</strong> valoramos y respetamos tu privacidad. Esta política describe cómo recopilamos, usamos y protegemos tu información personal mientras usas nuestra aplicación y servicios.",
+    "section1": {
+      "title": "1. Información que recopilamos",
+      "description": "Durante el uso de la aplicación, recopilamos únicamente la información necesaria para brindarte el servicio:",
+      "items": {
+        "userData": "Datos básicos de usuario proporcionados por Google (nombre, apellido y correo electrónico).",
+        "preferences": "Preferencias de compra y comercios favoritos.",
+        "orderHistory": "Historial de pedidos realizados a través de la aplicación."
+      }
+    },
+    "section2": {
+      "title": "2. Uso de la información",
+      "description": "La información recopilada se utiliza exclusivamente para:",
+      "items": {
+        "processOrders": "Procesar tus pedidos y mostrarte resultados personalizados.",
+        "improveExperience": "Mejorar la experiencia de usuario y el funcionamiento del servicio.",
+        "contact": "Comunicarnos contigo respecto a tus compras o soporte técnico."
+      }
+    },
+    "section3": {
+      "title": "3. Conservación de datos",
+      "description": "Solo conservamos la información mientras sea necesaria para el funcionamiento del servicio o hasta que solicites su eliminación. Puedes pedir la eliminación de tus datos escribiendo a <a>soporte@tcompro.app</a>."
+    },
+    "section4": {
+      "title": "4. Compartición de información",
+      "description": "No compartimos, vendemos ni alquilamos tu información personal con terceros. En algunos casos, podemos usar servicios externos (por ejemplo, Firebase o Google) estrictamente para alojamiento o autenticación, siempre bajo sus respectivas políticas de privacidad."
+    },
+    "section5": {
+      "title": "5. Seguridad",
+      "description": "Implementamos medidas técnicas y organizativas razonables para proteger tu información frente a accesos no autorizados, pérdida o alteración."
+    },
+    "section6": {
+      "title": "6. Cambios en esta política",
+      "description": "Podemos actualizar esta Política de Privacidad en cualquier momento para reflejar mejoras o cambios en el servicio. La fecha de la última actualización se mostrará al inicio del documento."
+    },
+    "section7": {
+      "title": "7. Contacto",
+      "description": "Si tienes preguntas o comentarios sobre esta política, puedes contactarnos en <a>soporte@tcompro.app</a>."
+    },
+    "lastUpdated": "Última actualización: noviembre 2025"
+  },
   "Test": {
     "title": "Título en español"
   },

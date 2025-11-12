@@ -15,7 +15,7 @@ export default function NavLogo({ version }: NavLogoProps) {
     const t = useTranslations('logo');
 
     return (
-        <div className="flex-1 sm:flex-none flex justify-center sm:justify-start">
+        <div className="flex-1 md:flex-none flex justify-center md:justify-start">
             <Link href="/" className={"logoLink"}>
                 <div className={"textWrapper"}>
                     <span className={"appName"}>{t("app-name")}</span>

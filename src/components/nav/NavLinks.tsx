@@ -2,18 +2,24 @@ import Link from 'next/link';
 import LocaleSwitcher from "@/components/nav/LocaleSwitcher";
 
 interface NavLinksProps {
-    items: { href: string; label: string }[];
+    items?: { href: string; label: string }[];
     className?: string;
+    showLinks?: boolean;
 }
 
-export default function NavLinks({ items, className }: NavLinksProps) {
+export default function NavLinks({ items = [], className, showLinks = true}: NavLinksProps) {
     return (
         <div className={`items-center gap-8 text-[16px] font-medium ${className}`}>
-            {items.map((item) => (
-                <Link key={item.href} href={item.href} className="hover:opacity-80 transition-opacity">
-                    {item.label}
-                </Link>
-            ))}
+            {showLinks &&
+                items.map((item) => (
+                    <Link
+                        key={item.href}
+                        href={item.href}
+                        className="hover:opacity-80 transition-opacity"
+                    >
+                        {item.label}
+                    </Link>
+                ))}
             <LocaleSwitcher />
         </div>
     );

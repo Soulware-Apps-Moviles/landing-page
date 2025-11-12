@@ -138,6 +138,49 @@
     },
     "copyNotice": "Soulware © 2025. All rights reserved."
   },
+  "privacy-policy": {
+    "title": "Privacy Policy",
+    "intro": "At <strong>T’Compro</strong>, we value and respect your privacy. This policy describes how we collect, use, and protect your personal information while you use our app and services.",
+    "section1": {
+      "title": "1. Information We Collect",
+      "description": "While using the app, we only collect the information necessary to provide the service:",
+      "items": {
+        "userData": "Basic user data provided by Google (first name, last name, and email address).",
+        "preferences": "Purchase preferences and favorite stores.",
+        "orderHistory": "Order history made through the app."
+      }
+    },
+    "section2": {
+      "title": "2. Use of Information",
+      "description": "The information we collect is used exclusively to:",
+      "items": {
+        "processOrders": "Process your orders and show you personalized results.",
+        "improveExperience": "Improve the user experience and the service functionality.",
+        "contact": "Communicate with you regarding your purchases or technical support."
+      }
+    },
+    "section3": {
+      "title": "3. Data Retention",
+      "description": "We only retain information as long as necessary for the service to function or until you request its deletion. You can request deletion by contacting <a>support@tcompro.app</a>."
+    },
+    "section4": {
+      "title": "4. Information Sharing",
+      "description": "We do not share, sell, or rent your personal information to third parties. In some cases, we may use external services (e.g., Firebase or Google) strictly for hosting or authentication, always under their respective privacy policies."
+    },
+    "section5": {
+      "title": "5. Security",
+      "description": "We implement reasonable technical and organizational measures to protect your information against unauthorized access, loss, or alteration."
+    },
+    "section6": {
+      "title": "6. Changes to This Policy",
+      "description": "We may update this Privacy Policy at any time to reflect improvements or changes in the service. The date of the last update will be displayed at the beginning of the document."
+    },
+    "section7": {
+      "title": "7. Contact",
+      "description": "If you have questions or comments about this policy, you can contact us at <a>support@tcompro.app</a>."
+    },
+    "lastUpdated": "Last updated: November 2025"
+  },
   "Test": {
     "title": "Title in English"
   },

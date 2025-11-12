@@ -26,7 +26,29 @@ export const routing = defineRouting({
     defaultLocale: 'en',
     pathnames: {
         '/': '/',
-        '/customers': { es: '/clientes' },
-        '/stores': { es: '/bodegas' },
+        '/customers': {
+            en: '/customers',
+            es: '/clientes'
+        },
+        '/customers/privacy-policy': {
+            en: '/customers/privacy-policy',
+            es: '/clientes/política-de-privacidad'
+        },
+        '/customers/terms-and-conditions': {
+            en: '/customers/terms-and-conditions',
+            es: '/clientes/términos-y-condiciones'
+        },
+        '/stores': {
+            en: '/stores',
+            es: '/bodegas'
+        },
+        '/stores/privacy-policy': {
+            en: '/stores/privacy-policy',
+            es: '/bodegas/política-de-privacidad'
+        },
+        '/stores/terms-and-conditions': {
+            en: '/stores/terms-and-conditions',
+            es: '/bodegas/términos-y-condiciones'
+        }
     } as LocalizedPathnames,
 });

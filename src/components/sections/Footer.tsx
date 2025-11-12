@@ -59,13 +59,13 @@ export default function Footer({ version }: FooterProps) {
 
                     <div className="flex flex-col w-full gap-2 text-[16px] leading-[24px]">
                         <Link
-                            href="/terms"
+                            href={`/${version}/terms-and-conditions`}
                             className="flex flex-row items-center justify-center lg:justify-start gap-2 hover:underline w-full"
                         >
                             {t("about.terms")}
                         </Link>
                         <Link
-                            href="/privacy"
+                            href={`/${version}/privacy-policy`}
                             className="flex flex-row items-center justify-center lg:justify-start gap-2 hover:underline w-full"
                         >
                             {t("about.privacy")}
