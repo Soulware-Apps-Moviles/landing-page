@@ -42,7 +42,8 @@
       "title": "Tu negocio, tus reglas:<br></br>un sistema a tu medida",
       "description": "El potencial de la tecnología trabajando a tu manera",
       "version-swap": "Ir a la versión para clientes"
-    }
+    },
+    "cta-label": "Descargar en Firebase"
   },
   "locale-switcher": {
     "label": "Cambiar idioma",
@@ -119,6 +120,23 @@
         "comment": "Quería una libreta digital para llevar el control de mis clientes frecuentes. Esta app me ayuda muchísimo con eso."
       }
     }
+  },
+  "footer": {
+    "contact": {
+      "title": "Contacto",
+      "email": "sales@soulware.org",
+      "phone": "+51 958 432 741"
+    },
+    "about": {
+      "title": "Saber más",
+      "terms": "Términos y condiciones",
+      "privacy": "Política de privacidad"
+    },
+    "download": {
+      "title": "Descarga",
+      "label": "Obtener en Firebase"
+    },
+    "copyNotice": "Soulware © 2025. Todos los derechos reservados."
   },
   "Test": {
     "title": "Título en español"

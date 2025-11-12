@@ -2,6 +2,7 @@ import {getLocale, getTranslations} from "next-intl/server";
 import VersionSwapButton from "@/components/VersionSwapButton";
 import {Version} from "@/i18n/routing";
 import './Sections.css'
+import DownloadButton from "@/components/DownloadButton";
 
 interface HeroSectionProps {
     version: Version;
@@ -21,6 +22,11 @@ export default async function HeroSection({ version }: HeroSectionProps) {
                 <p className="mt-4 text-[12px] leading-[18px] sm:text-[24px] sm:leading-[36px] md:text-[32px] md:leading-[48px]">
                     {t.rich(`${version}.description`, { br: () => <br /> })}
                 </p>
+
+                <DownloadButton
+                    label={t("cta-label")}
+                    version={version}
+                />
             </div>
             <VersionSwapButton label={t(`${version}.version-swap`)} version={version}/>
         </section>

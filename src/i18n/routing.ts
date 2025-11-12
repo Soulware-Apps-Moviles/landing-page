@@ -3,6 +3,13 @@ import {Locale} from "next-intl";
 
 export type Version = 'customers' | 'stores';
 
+export const CUSTOMER_VERSION_DOWNLOAD_URL = ""
+export const STORES_VERSION_DOWNLOAD_URL = ""
+
+export function getDownloadUrl(version : Version) {
+    return version == "customers" ? CUSTOMER_VERSION_DOWNLOAD_URL : STORES_VERSION_DOWNLOAD_URL;
+}
+
 type LocalizedPathnames = {
     [key: string]: string | Partial<Record<Locale, string>>;
 };

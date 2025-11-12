@@ -19,6 +19,7 @@ export default function VersionSwapButton({ label, version }: VersionSwapButtonP
                     absolute bottom-4 right-4 sm:bottom-8 sm:right-8 md:bottom-6 md:right-6
                     text-white rounded-xl shadow-lg flex items-center transition hover:brightness-90 
                     bg-black
+                    border border-white
                     px-4 py-2 sm:px-6 sm:py-4
                 `}
             >

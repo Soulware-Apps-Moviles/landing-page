@@ -42,7 +42,8 @@
       "title": "Your business, your rules:<br></br>a system built for you",
       "description": "The power of technology, working your own way",
       "version-swap": "Go to the customer version"
-    }
+    },
+    "cta-label": "Download from Firebase"
   },
   "locale-switcher": {
     "label": "Change language",
@@ -119,6 +120,23 @@
         "comment": "I wanted a digital notebook to keep track of my customers payments. This app helps me a lot with that."
       }
     }
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact",
+      "email": "sales@soulware.org",
+      "phone": "+51 958 432 741"
+    },
+    "about": {
+      "title": "Know more",
+      "terms": "Terms and conditions",
+      "privacy": "Privacy Policy"
+    },
+    "download": {
+      "title": "Download",
+      "label": "Get on Firebase"
+    },
+    "copyNotice": "Soulware © 2025. All rights reserved."
   },
   "Test": {
     "title": "Title in English"
