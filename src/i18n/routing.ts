@@ -3,7 +3,7 @@ import {Locale} from "next-intl";
 
 export type Version = 'customers' | 'stores';
 
-export const CUSTOMER_VERSION_DOWNLOAD_URL = ""
+export const CUSTOMER_VERSION_DOWNLOAD_URL = "https://appdistribution.firebase.dev/i/00027c3ed9fa7c2d"
 export const STORES_VERSION_DOWNLOAD_URL = ""
 
 export function getDownloadUrl(version : Version) {
