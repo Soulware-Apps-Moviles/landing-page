@@ -15,12 +15,12 @@ export default function DownloadButton({ label, version }: DownloadButtonProps) 
             href={getDownloadUrl(version)}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mt-3 sm:mt-[16px]"
+            className="inline-block mt-3 md:mt-[16px]"
         >
             <button
                 className={`
-                  flex items-center justify-center gap-2 sm:gap-3
-                  px-4 py-3 sm:px-8 sm:py-5
+                  flex items-center justify-center gap-2 md:gap-3
+                  px-4 py-3 md:px-8 md:py-5
                   bg-black text-white font-semibold
                   border border-white rounded-xl
                   shadow-lg
@@ -29,7 +29,7 @@ export default function DownloadButton({ label, version }: DownloadButtonProps) 
                   active:scale-[0.98]
                 `}
             >
-                <span className="text-[14px] leading-[20px] sm:text-[18px] sm:leading-[28px] tracking-wide">
+                <span className="text-[14px] leading-[20px] md:text-[18px] md:leading-[28px] tracking-wide">
                     {label}
                 </span>
                 <Image
@@ -37,7 +37,7 @@ export default function DownloadButton({ label, version }: DownloadButtonProps) 
                     alt="Download icon"
                     width={20}
                     height={20}
-                    className="inline-block align-middle sm:w-[24px] sm:h-[24px]"
+                    className="inline-block align-middle md:w-[24px] md:h-[24px]"
                 />
             </button>
         </Link>

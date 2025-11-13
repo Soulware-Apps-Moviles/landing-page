@@ -35,15 +35,17 @@
   "hero": {
     "customers": {
       "title": "Tu bodega de siempre,<br></br>a un click de distancia",
-      "description": "Compra en tu bodega de confianza con los precios<br></br>de siempre desde la comodidad de tu casa con T'Compro App.",
-      "version-swap": "Ir a la versión para bodegas"
+      "description": "Compra en tu bodega de confianza con los precios de siempre desde la comodidad de tu casa con T'Compro App."
     },
     "stores": {
       "title": "Tu negocio, tus reglas:<br></br>un sistema a tu medida",
-      "description": "El potencial de la tecnología trabajando a tu manera",
-      "version-swap": "Ir a la versión para clientes"
+      "description": "El potencial de la tecnología trabajando a tu manera"
     },
     "cta-label": "Descargar en Firebase"
+  },
+  "version-switcher": {
+    "customers": "Bodegas",
+    "stores": "Clientes"
   },
   "locale-switcher": {
     "label": "Cambiar idioma",

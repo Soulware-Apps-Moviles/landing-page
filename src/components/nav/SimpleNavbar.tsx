@@ -18,10 +18,10 @@ export default function SimpleNavBar({ version }: SimpleNavBarProps) {
         <nav className="fixed top-0 left-0 w-full z-50 bg-black text-white shadow-md">
             <div className="flex items-center justify-between md:justify-start px-6 py-4">
                 <NavLogo version={version} />
-                <NavLinks className="hidden md:flex ml-auto" showLinks={false} />
+                <NavLinks version={version} className="hidden md:flex ml-auto" showLinks={false} />
                 <NavToggle open={menuOpen} onToggle={() => setMenuOpen(!menuOpen)} />
             </div>
-            <NavMobileMenu open={menuOpen} showLinks={false}/>
+            <NavMobileMenu version={version} open={menuOpen} showLinks={false}/>
         </nav>
     );
 }

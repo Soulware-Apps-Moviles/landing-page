@@ -1,13 +1,16 @@
 import Link from 'next/link';
 import LocaleSwitcher from "@/components/nav/LocaleSwitcher";
+import {Version} from "@/i18n/routing";
+import VersionSwitcher from "@/components/nav/VersionSwitcher";
 
 interface NavMobileMenuProps {
+    version: Version;
     open: boolean;
     items?: { href: string; label: string }[];
     showLinks?: boolean;
 }
 
-export default function NavMobileMenu({ open, items = [], showLinks = true}: NavMobileMenuProps) {
+export default function NavMobileMenu({ version, open, items = [], showLinks = true}: NavMobileMenuProps) {
     if (!open) return null;
 
     return (
@@ -22,6 +25,7 @@ export default function NavMobileMenu({ open, items = [], showLinks = true}: Nav
                         {item.label}
                     </Link>
                 ))}
+            <VersionSwitcher version={version}/>
             <LocaleSwitcher />
         </div>
     );

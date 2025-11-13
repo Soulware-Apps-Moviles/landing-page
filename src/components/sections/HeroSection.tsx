@@ -1,5 +1,4 @@
 import {getLocale, getTranslations} from "next-intl/server";
-import VersionSwapButton from "@/components/VersionSwapButton";
 import DownloadButton from "@/components/DownloadButton";
 import {Version} from "@/i18n/routing";
 import './Sections.css'
@@ -13,14 +12,14 @@ export default async function HeroSection({ version }: HeroSectionProps) {
     const t = await getTranslations({ locale, namespace: 'hero' });
 
     return (
-        <section className={`heroSection relative flex items-center justify-start px-0 sm:px-[40px] text-white ${version}`}>
-            <div className={"px-[16px] lg:px-[0px]"}>
+        <section className={`heroSection flex flex-col justify-center text-white ${version}`}>
+            <div className="h-full flex flex-col sm:w-[90%] md:w-full lg:w-[90%] justify-center px-[16px] sm:px-[40px]">
                 <h1 className="font-bold">
                     {t.rich(`${version}.title`, { br: () => <br /> })}
                 </h1>
 
                 <p className="mt-4">
-                    {t.rich(`${version}.description`, { br: () => <br /> })}
+                    {t(`${version}.description`)}
                 </p>
 
                 <DownloadButton
@@ -28,7 +27,6 @@ export default async function HeroSection({ version }: HeroSectionProps) {
                     version={version}
                 />
             </div>
-            <VersionSwapButton label={t(`${version}.version-swap`)} version={version}/>
         </section>
     );
 }

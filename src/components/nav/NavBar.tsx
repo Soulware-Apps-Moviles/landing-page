@@ -49,11 +49,11 @@ export default function NavBar({version}: NavBarProps) {
         >
             <div className="flex items-center justify-between md:justify-start px-6 py-4">
                 <NavLogo version={version} />
-                <NavLinks items={items} className="hidden md:flex ml-auto" />
+                <NavLinks version={version} items={items} className="hidden md:flex ml-auto" />
                 <NavToggle open={menuOpen} onToggle={() => setMenuOpen(!menuOpen)} />
             </div>
 
-            <NavMobileMenu open={menuOpen} items={items} />
+            <NavMobileMenu version={version} open={menuOpen} items={items} />
         </nav>
     );
 };

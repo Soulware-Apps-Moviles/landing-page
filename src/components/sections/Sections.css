@@ -47,13 +47,13 @@
 
 @media (min-width: 730px) {
     .heroSection h1 {
-        font-size: 32px;
-        line-height: 48px;
+        font-size: 28px;
+        line-height: 42px;
     }
 
     .heroSection p {
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 
