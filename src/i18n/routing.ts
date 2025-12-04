@@ -3,8 +3,8 @@ import {Locale} from "next-intl";
 
 export type Version = 'customers' | 'stores';
 
-export const CUSTOMER_VERSION_DOWNLOAD_URL = "https://appdistribution.firebase.dev/i/00027c3ed9fa7c2d"
-export const STORES_VERSION_DOWNLOAD_URL = ""
+export const CUSTOMER_VERSION_DOWNLOAD_URL = "https://appdistribution.firebase.google.com/pub/i/5541e7e7b9eba513"
+export const STORES_VERSION_DOWNLOAD_URL = "https://appdistribution.firebase.dev/i/00027c3ed9fa7c2d"
 
 export function getDownloadUrl(version : Version) {
     return version == "customers" ? CUSTOMER_VERSION_DOWNLOAD_URL : STORES_VERSION_DOWNLOAD_URL;
