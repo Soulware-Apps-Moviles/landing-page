@@ -208,6 +208,10 @@
     },
     "lastUpdated": "Última actualización: noviembre 2025"
   },
+  "videoTitles": {
+    "aboutTheTeam": "About The Team",
+    "aboutTheProduct": "About The Product"
+  },
   "Test": {
     "title": "Título en español"
   },

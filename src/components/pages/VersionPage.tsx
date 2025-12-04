@@ -5,6 +5,7 @@ import './Pages.css';
 import Features from "@/components/sections/Features";
 import Reviews from "@/components/sections/Reviews";
 import Footer from "@/components/sections/Footer";
+import VideoSection from "@/components/sections/VideoSection";
 
 type PageLayoutProps = {
   version: Version;
@@ -18,6 +19,8 @@ export default function VersionPage({ version }: PageLayoutProps) {
             </div>
             <Features version={version}/>
             <Reviews version={version}/>
+            <VideoSection labelKey={"aboutTheTeam"} videoId={"-SMuIGjA4Ko"}/>
+            <VideoSection labelKey={"aboutTheProduct"} videoId={"jlXk9r3kpmY"}/>
             <Footer version={version}/>
         </>
     );
