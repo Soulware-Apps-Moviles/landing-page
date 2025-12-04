@@ -19,8 +19,8 @@ export default function VersionPage({ version }: PageLayoutProps) {
             </div>
             <Features version={version}/>
             <Reviews version={version}/>
-            <VideoSection labelKey={"aboutTheTeam"} videoId={"-SMuIGjA4Ko"}/>
-            <VideoSection labelKey={"aboutTheProduct"} videoId={"jlXk9r3kpmY"}/>
+            <VideoSection labelKey={"aboutTheProduct"} videoId={"-SMuIGjA4Ko"}/>
+            <VideoSection labelKey={"aboutTheTeam"} videoId={"jlXk9r3kpmY"}/>
             <Footer version={version}/>
         </>
     );
